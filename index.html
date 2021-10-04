@@ -2,15 +2,135 @@
 <html lang="en">
     <head>
         <title>Pomodoro Timer Brainstorming</title>
-        <meta>metadata</meta>
+        <meta>
+            <link href="https://raw.githubusercontent.com/tiffkchang/Lab2/master/favicon.ico">
+        </meta>
     </head>
     <body>
-        <h1>Pomodoro Timer Brainstorming</h1>
-        <h2>Brainstorming Ideas</h2>
-        <h3>10/2/2021</h3>
-        <p>Attendance:</p>
-        <li>Member 1</li>
-        <li>Member 2</li>
-        <li>Member 3</li>
+        <div>
+            <h1>Pomodoro Timer Brainstorming</h1>
+            <h2>Brainstorming Ideas</h2>
+            <h3>10/2/2021</h3>
+            <img width=500 src="https://luxafor.com/wp-content/uploads/2020/07/the-Pomodoro-Technique-3-1024x576.png" alt="image of pomodoro technique">
+        </div>
+        <span>
+            <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique">Pomodoro Technique</a>
+        </span>
+        <p>
+            <i>
+                Attendance:
+            </i>
+        </p>
+        <ul>
+            <li>Member 1</li>
+            <li>Member 2</li>
+            <li>Member 3</li>
+        </ul>
+        <hr />
+        <main>
+            <section>
+                <header>
+                    <strong>Agenda</strong>
+                </header>
+                <nav>
+                    <ol>
+                        <li>Assign roles to each team member</li>
+                        <li>Design application layout</li>
+                        <li>Research other existing <b>pomodoro timers</b></li>
+                    </ol>
+                </nav>
+                <footer>Don't forget to schedule a <em>weekly</em> day and time to meet!</footer>
+            </section>
+        </main>
+        <br />
+        <section>
+            <header>
+                <strong>Unfinished from last meeting:</strong>
+            </header>
+            <ul>
+                <li>Setting a meeting location</li>
+                <li>Gather list of the most popular pomodoro timer apps on the app store.</li>
+            </ul>
+        </section>
+        <section>
+            <header>
+                <strong>New business:</strong>
+            </header>
+            <ul>
+                <li>Pick a color scheme for the pomodoro timer</li>
+                <li>Create github repository for project</li>
+            </ul>
+        </section>
+        <section>
+            <header>
+                <strong>Comments/Questions/Concerns:</strong>
+            </header>
+            <ul>
+                <li>Schedules aligning</li>
+                <li>Level of previous webdev experience</li>
+            </ul>
+        </section>
+        <video width=300 controls>
+            <source src="./video.mp4" />
+        </video>
+        <details>
+            <summary>Puzzle and Dragons video</summary>
+            <p>This is a video of me playing Puzzle and Dragons.</p>
+        </details>
+        <audio controls>
+            <source src="video.mp4" />
+        </audio>
+        <details>
+            <summary>Puzzle and Dragons audio</summary>
+            <p>This is audio of me playing Puzzle and Dragons.</p>
+        </details>
+        <form>
+            <fieldset>
+                <legend>
+                    <h3>
+                        Meeting Survey
+                    </h3>
+                </legend>
+                <h3>Meeting thoughts</h3>
+                <input type="text" />
+                <input type="button" value="Submit" />
+                <h3>How would you rate the productivity of this meeting out of 5?</h3>
+                <input type="radio" id="1" name="rating" value="1">
+                <label for="1">1</label><br>
+                <input type="radio" id="2" name="rating" value="2">
+                <label for="2">2</label><br>
+                <input type="radio" id="3" name="rating" value="3">
+                <label for="3">3</label><br>
+                <input type="radio" id="4" name="rating" value="4">
+                <label for="4">4</label><br>
+                <input type="radio" id="5" name="rating" value="5">
+                <label for="5">5</label><br>
+                <label for="date">Please select today's meeting date.</label>
+                <input type="date" name="date" id="date"><br>
+                <label for="suggestions">Suggestions for next meeting</label><br>
+                <textarea name="suggestions" id="suggestions" cols="30" rows="10"></textarea><br>
+                <label for="team">What should we call our team?</label>
+                <input list="teams" name="team" id="team">
+                <datalist id="teams">
+                  <option value="The Pomodoros">
+                  <option value="Pomodoro the Explorer">
+                  <option value="Team 3">
+                  <option value="Productivity Pack">
+                  <option value="Hi">
+                </datalist>
+                <button>Submit</button>
+                <br>
+                <label for="day">What is the best day of the week to meet?</label>
+                <select name="day" id="day">
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                    <option value="Sunday">Sunday</option>
+                </select>
+            </fieldset>
+        </form>
     </body>
 </html>
